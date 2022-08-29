@@ -8,7 +8,7 @@ jobs:
     steps:
       - run: export
       - run: pwd
-      - run: ls -lah
+      - run: ls -lah ..
     # - uses: actions/checkout@master
     # - uses: ./action-a
     #   env:
