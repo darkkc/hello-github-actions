@@ -4,9 +4,11 @@ on: push
 jobs:
   build:
     name: Hello world action
-    runs-on: ubuntu-latest    
+    runs-on: self-hosted
     steps:
       - run: export
+      - run: pwd
+      - run: ls -lah
     # - uses: actions/checkout@master
     # - uses: ./action-a
     #   env:
